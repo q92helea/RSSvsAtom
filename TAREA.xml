@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Elemento RAIZ-->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="http://localhost/ra3/atom/">
+<!-- Elementos OBLIGATORIOS del FEED-->
+    <title>Noticias sobre Linux  </title>
+    <updated>2021-02-08T21:30:02Z</updated>
+    <id>urn:uuid:90c52b80-a390-45d3-b93C-0003939e0af6</id>
+
+<!-- Elementos OPCIONALES-->   
+    <link href="http://localhost/AndresHeras08_Atom/"/><!--Página web relacionada con el feed-->
+
+    <author>
+        <name>AndresHeras</name>
+        <email>a19helean@iesgrancapitan.org</email>
+        <uri>http://localhost/AndresHeras08_Atom/AndresHeras08.html</uri>
+    </author>
+    
+    <category term="tecnologia"/>
+    <generator>VS Code</generator>
+    <logo>/images/LogoTux.png</logo>.
+    <rights> © 2021 AndresHeras</rights>
+    <subtitle>Todas las noticias sobre el sistema del Ñú y el Pingüino</subtitle>
+
+
+
+
+<!--CONTENIDO-->
+
+<entry>
+<id>849c3-2535v-t345-</id>
+<title>Disponible Ubuntu 20.04.2 LTS con Linux 5.8 y más novedades</title>
+<link rel="alternate" href="https://www.muylinux.com/2021/02/04/ubuntu-20-04-2-lts/"/>
+   <author>
+        <name>J.Poymerol</name>
+        <email>j.poymerl@muylinux.com</email>
+        <uri>http://localhost/AndresHeras08_Atom/AndresHeras08.html</uri>
+  </author>
+<updated>2021-02-04T12:00:00Z</updated>
+<summary>Ya está aquí Ubuntu 20.04.2 LTS, una nueva actualización de mantenimiento de la última versión de soporte extendido 
+de la distribución de Canonical y la recomendada para nuevas instalaciones a partir de ahora… y hasta que salga la siguiente, claro.</summary>
+<content type="image/jpg" src="https://www.muylinux.com/wp-content/uploads/2020/04/FocalFossa.jpg"/>
+</entry>
+
+<entry>
+<id>76a2-2j3L4-9302-382A0F</id>
+<title>Nueva vulnerabilidad en Sudo permite elevar privilegios en sistemas Linux</title>
+   <author>
+        <name>jortegacalvo</name>
+        <email>jortegacalvo@muylinux.com</email>
+        <uri>http://localhost/AndresHeras08_Atom/AndresHeras08.html</uri>
+    </author>
+<link rel="alternate" href="https://unaaldia.hispasec.com/2021/01/nueva-vulnerabilidad-en-sudo-permite-elevar-privilegios-en-sistemas-linux.html"/>
+<updated>2021-01-12T14:00:00Z</updated>
+<summary>YSudo es una utilidad de código abierto muy poderosa y casi omnipresente en los principales sistemas operativos 
+con kernel Linux y tipo Unix, una nueva vulnerabilidad ( CVE-2021-3156 ) podría permitir 
+que cualquier usuario local sin privilegios obtenga privilegios de root en un host vulnerable.</summary>
+<link rel="enclosure" xml:lang="en-us" title="Baron Samedi" type="video" hreflang="en-us" href="https://vimeo.com/504872555"/>
+</entry>
+
+<entry>
+<id>849c3-2535v-t345-</id>
+<title>Los comandos de texto más peligrosos de Windows, Linux y Mac</title>
+   <author>
+        <name>Jaume Vicent</name>
+        <email>jaumevic3nt@trecebits.com</email>
+        <uri>http://localhost/AndresHeras08_Atom/AndresHeras08.html</uri>
+    </author>
+<link rel="alternate" href="https://www.trecebits.com/2021/02/05/los-comandos-de-texto-mas-peligrosos-de-windows-linux-y-mac/"/>
+<updated>2021-02-04T12:00:00Z</updated>
+<summary>Ya Existen ciertas acciones que pueden resultar muy peligrosas para la salud de un ordenador. 
+Las más conocidas son abrir archivos cuyo origen desconocemos, pinchar en enlaces de correos dudosos, 
+ejecutar programas poco seguros o incluso pinchar en un meme de Twitter tras el que se puede esconder 
+un programa «malware» que podría acabar dañando el ordenador.</summary>
+<content type="image/jpg" src="https://www.trecebits.com/wp-content/uploads/2021/02/Comandos-peligrosos.jpg"/>
+</entry>
+
+<entry>
+<id>76a2-2j3L4-9302-382A0F</id>
+<title>gPodder: Un sencillo agregador de medios y cliente de podcast para Linux</title>
+   <author>
+        <name>LinuxPostInstall</name>
+        <email>contacto@linuxpostinstall.com</email>email&gt;
+        <uri>http://localhost/AndresHeras08_Atom/AndresHeras08.html</uri>
+    </author>
+<link rel="alternate" href="https://unaaldia.hispasec.com/2021/01/nueva-vulnerabilidad-en-sudo-permite-elevar-privilegios-en-sistemas-linux.html"/>
+<updated>2021-02-08T11:00:00Z</updated>
+<summary>Dado que, en estos días está muy de moda el uso de los Podcasts, no solo para el ámbito de la difusión, 
+aprendizaje y enseñanza del ámbito del Software Libre, 
+Código Abierto y GNU/Linux, sino para todo tipo de ámbito, contenido y finalidad, 
+hoy hablaremos de «gPodder».</summary>
+<link rel="enclosure" xml:lang="es-es" title="Como usar gPodder para descargar capítulos de un podcast" type="video" hreflang="es-es" href="https://www.youtube.com/watch?v=dGaAgIkGsYI"/>
+</entry>
+
+</feed>
